@@ -6,7 +6,7 @@ import { FaPhoneAlt } from 'react-icons/fa'
 import { FiMail } from 'react-icons/fi'
 import Head from 'next/head'
 
-const contact = () => {
+const Contact = () => {
   const formRef = useRef()
   const [done, setDone] = useState(false)
 
@@ -101,4 +101,4 @@ const contact = () => {
   )
 }
 
-export default contact
+export default Contact
